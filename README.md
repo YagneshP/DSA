@@ -15,3 +15,7 @@ let countLength = function (str) {
 - for `arr.push()` is constant `O(n)` as we are adding an element at the back of array.
 
 - for `arr.shift()` and `arr.unshift()` it is linear `O(n)` because when we add or remove an element from the front js need to shuffle other elements of the array to `i+1` index.
+
+### What is memoization ?
+
+- caching the value that function returns.
