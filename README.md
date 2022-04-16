@@ -10,7 +10,7 @@ let countLength = function (str) {
 - You might confused how js find the length by going to each character for the string.
 - But string is an Object and length its a property of an object so it is a property lookup.
 
-#### How about Big O of push , shift and unshift
+### How about Big O of push , shift and unshift
 
 - for `arr.push()` is constant `O(n)` as we are adding an element at the back of array.
 
