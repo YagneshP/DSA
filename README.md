@@ -19,3 +19,19 @@ let countLength = function (str) {
 ### What is memoization ?
 
 - caching the value that function returns.
+
+## Recursion
+
+- When function calls itself.
+
+### Recusion in 4 steps
+
+1. Identify the **base case**.
+2. Identify the **recursive case**.
+3. Return where it is appropriate.
+4. Write procedure for each case which brings you closer to the base case.
+
+### Common pattern for recursion
+
+- Wrapper functions
+- Accumulators
