@@ -35,3 +35,11 @@ let countLength = function (str) {
 
 - Wrapper functions
 - Accumulators
+
+## Linked List
+
+- It is like a chain which contains 'Node'.
+- Node has value which can be any value (primitive or any object)
+- Node also has reference to the next node.
+- First Node of the Linked List is called 'Head'.
+- Last Node of the linked list is called 'Tail' and it next reference to 'null'.
