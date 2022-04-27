@@ -5,7 +5,7 @@
 /**
  * Approach
  *
- * travsal -> Need a variable / pointer , Time = O(n) Space = O(n)
+ * travsal -> Need a variable / pointer , Time = O(n) Space = O(n) for iterative and recursive
  *
  */
 
