@@ -31,7 +31,7 @@ c.next = d;
 
 //iterative
 
-const linkedListValues = (head) => {
+const linkedListValuesIT = (head) => {
   // need an array to store the values of node
   let values = [];
   let current = head; //start assign head to a variable
@@ -45,4 +45,15 @@ const linkedListValues = (head) => {
   return values;
 };
 
-console.log(linkedListValues(a));
+//Recursive
+
+const linkedListValuesRC = (head, arr = []) => {
+  //base case when head null return array
+  if (head === null) return arr;
+  arr.push(head.value);
+  return linkedListValuesRC(head.next, arr);
+};
+
+console.log(linkedListValuesRC(a));
+
+console.log(linkedListValuesIT(a));
