@@ -38,6 +38,7 @@ const getValueIT = (head, index) => {
     count++;
     current = current.next;
   }
+  return null;
 };
 
 console.log(getValueIT(a, 2));
